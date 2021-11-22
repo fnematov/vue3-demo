@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "companyName": "Brainclip",
+    "email": "robersonrosa@brainclip.com",
+    "director": "Catalina Wiggins",
+    "phone": "(998) 421-3093",
+    "countryCode": "IT"
+  },
+  {
+    "id": 2,
+    "companyName": "Accufarm",
+    "email": "catalinawiggins@accufarm.com",
+    "director": "Marion Joyner",
+    "phone": "(956) 466-2761",
+    "countryCode": "YU"
+  },
+  {
+    "id": 3,
+    "companyName": "Zolarity",
+    "email": "marionjoyner@zolarity.com",
+    "director": "Letitia Kidd",
+    "phone": "(931) 513-3179",
+    "countryCode": "NR"
+  },
+  {
+    "id": 4,
+    "companyName": "Exovent",
+    "email": "letitiakidd@exovent.com",
+    "director": "Adams Donovan",
+    "phone": "(902) 437-2510",
+    "countryCode": "GN"
+  },
+  {
+    "id": 5,
+    "companyName": "Steelfab",
+    "email": "adamsdonovan@steelfab.com",
+    "director": "Anastasia Hill",
+    "phone": "(826) 417-3647",
+    "countryCode": "TO"
+  },
+  {
+    "id": 6,
+    "companyName": "Viagrand",
+    "email": "anastasiahill@viagrand.com",
+    "director": "Huff Pugh",
+    "phone": "(957) 444-3008",
+    "countryCode": "ML"
+  },
+  {
+    "id": 7,
+    "companyName": "Gynk",
+    "email": "huffpugh@gynk.com",
+    "director": "Vilma Bernard",
+    "phone": "(881) 423-2567",
+    "countryCode": "BJ"
+  },
+  {
+    "id": 8,
+    "companyName": "Sultraxin",
+    "email": "vilmabernard@sultraxin.com",
+    "director": "Belinda Kaufman",
+    "phone": "(986) 552-3489",
+    "countryCode": "LV"
+  },
+  {
+    "id": 9,
+    "companyName": "Quinex",
+    "email": "belindakaufman@quinex.com",
+    "director": "Ophelia England",
+    "phone": "(839) 452-2475",
+    "countryCode": "PL"
+  },
+  {
+    "id": 10,
+    "companyName": "Gallaxia",
+    "email": "opheliaengland@gallaxia.com",
+    "director": "Lou Craig",
+    "phone": "(846) 572-2834",
+    "countryCode": "MM"
+  },
+  {
+    "id": 11,
+    "companyName": "Melbacor",
+    "email": "loucraig@melbacor.com",
+    "director": "Ochoa Baker",
+    "phone": "(867) 457-3902",
+    "countryCode": "UM"
+  },
+  {
+    "id": 12,
+    "companyName": "Rugstars",
+    "email": "ochoabaker@rugstars.com",
+    "director": "Katrina Aguilar",
+    "phone": "(920) 508-3788",
+    "countryCode": "MD"
+  },
+  {
+    "id": 13,
+    "companyName": "Halap",
+    "email": "katrinaaguilar@halap.com",
+    "director": "Althea Wallace",
+    "phone": "(897) 544-2187",
+    "countryCode": "KR"
+  },
+  {
+    "id": 14,
+    "companyName": "Cosmetex",
+    "email": "altheawallace@cosmetex.com",
+    "director": "Evangelina Camacho",
+    "phone": "(911) 400-3312",
+    "countryCode": "LK"
+  },
+  {
+    "id": 15,
+    "companyName": "Playce",
+    "email": "evangelinacamacho@playce.com",
+    "director": "Kennedy Mueller",
+    "phone": "(851) 534-2577",
+    "countryCode": "CI"
+  },
+  {
+    "id": 16,
+    "companyName": "Suremax",
+    "email": "kennedymueller@suremax.com",
+    "director": "Deann Patrick",
+    "phone": "(832) 572-2790",
+    "countryCode": "NO"
+  },
+  {
+    "id": 17,
+    "companyName": "Sportan",
+    "email": "deannpatrick@sportan.com",
+    "director": "Patrick Solis",
+    "phone": "(901) 590-2491",
+    "countryCode": "FR"
+  },
+  {
+    "id": 18,
+    "companyName": "Remotion",
+    "email": "patricksolis@remotion.com",
+    "director": "Grant Smith",
+    "phone": "(975) 519-2937",
+    "countryCode": "BD"
+  },
+  {
+    "id": 19,
+    "companyName": "Coriander",
+    "email": "grantsmith@coriander.com",
+    "director": "Newman Weeks",
+    "phone": "(997) 550-2993",
+    "countryCode": "JP"
+  },
+  {
+    "id": 20,
+    "companyName": "Otherway",
+    "email": "newmanweeks@otherway.com",
+    "director": "Silvia Matthews",
+    "phone": "(903) 448-2581",
+    "countryCode": "AI"
+  },
+  {
+    "id": 21,
+    "companyName": "Acusage",
+    "email": "silviamatthews@acusage.com",
+    "director": "Cathryn Steele",
+    "phone": "(939) 568-3725",
+    "countryCode": "FX"
+  },
+  {
+    "id": 22,
+    "companyName": "Zytrek",
+    "email": "cathrynsteele@zytrek.com",
+    "director": "Jackie Leach",
+    "phone": "(800) 459-3490",
+    "countryCode": "BR"
+  },
+  {
+    "id": 23,
+    "companyName": "Skyplex",
+    "email": "jackieleach@skyplex.com",
+    "director": "Pearson Prince",
+    "phone": "(922) 503-2741",
+    "countryCode": "SD"
+  },
+  {
+    "id": 24,
+    "companyName": "Kongene",
+    "email": "pearsonprince@kongene.com",
+    "director": "Nellie Mayo",
+    "phone": "(844) 524-2903",
+    "countryCode": "TM"
+  },
+  {
+    "id": 25,
+    "companyName": "Zerology",
+    "email": "nelliemayo@zerology.com",
+    "director": "Hansen Curtis",
+    "phone": "(868) 534-3249",
+    "countryCode": "TN"
+  },
+  {
+    "id": 26,
+    "companyName": "Ohmnet",
+    "email": "hansencurtis@ohmnet.com",
+    "director": "Briggs Cherry",
+    "phone": "(963) 418-2559",
+    "countryCode": "PA"
+  },
+  {
+    "id": 27,
+    "companyName": "Buzzworks",
+    "email": "briggscherry@buzzworks.com",
+    "director": "Knight Coleman",
+    "phone": "(872) 403-2618",
+    "countryCode": "UG"
+  },
+  {
+    "id": 28,
+    "companyName": "Bugsall",
+    "email": "knightcoleman@bugsall.com",
+    "director": "Sharp Wong",
+    "phone": "(942) 564-2909",
+    "countryCode": "SL"
+  },
+  {
+    "id": 29,
+    "companyName": "Tellifly",
+    "email": "sharpwong@tellifly.com",
+    "director": "Shelly Le",
+    "phone": "(904) 596-3756",
+    "countryCode": "LU"
+  },
+  {
+    "id": 30,
+    "companyName": "Duoflex",
+    "email": "shellyle@duoflex.com",
+    "director": "Alberta Miles",
+    "phone": "(840) 422-2717",
+    "countryCode": "KI"
+  },
+  {
+    "id": 31,
+    "companyName": "Poshome",
+    "email": "albertamiles@poshome.com",
+    "director": "Slater Reilly",
+    "phone": "(875) 589-3775",
+    "countryCode": "SZ"
+  },
+  {
+    "id": 32,
+    "companyName": "Zidox",
+    "email": "slaterreilly@zidox.com",
+    "director": "Hurley Finley",
+    "phone": "(811) 593-2702",
+    "countryCode": "BB"
+  },
+  {
+    "id": 33,
+    "companyName": "Thredz",
+    "email": "hurleyfinley@thredz.com",
+    "director": "Hammond Rosario",
+    "phone": "(972) 534-2428",
+    "countryCode": "GM"
+  },
+  {
+    "id": 34,
+    "companyName": "Progenex",
+    "email": "hammondrosario@progenex.com",
+    "director": "Letha Harrell",
+    "phone": "(978) 515-2303",
+    "countryCode": "MG"
+  },
+  {
+    "id": 35,
+    "companyName": "Obliq",
+    "email": "lethaharrell@obliq.com",
+    "director": "Avila Barker",
+    "phone": "(949) 549-2049",
+    "countryCode": "HM"
+  },
+  {
+    "id": 36,
+    "companyName": "Aquacine",
+    "email": "avilabarker@aquacine.com",
+    "director": "Holder Davidson",
+    "phone": "(810) 408-3770",
+    "countryCode": "FI"
+  },
+  {
+    "id": 37,
+    "companyName": "Ebidco",
+    "email": "holderdavidson@ebidco.com",
+    "director": "Gwendolyn Howell",
+    "phone": "(874) 543-3890",
+    "countryCode": "SO"
+  },
+  {
+    "id": 38,
+    "companyName": "Overfork",
+    "email": "gwendolynhowell@overfork.com",
+    "director": "Powers Fry",
+    "phone": "(954) 469-2387",
+    "countryCode": "TF"
+  },
+  {
+    "id": 39,
+    "companyName": "Moreganic",
+    "email": "powersfry@moreganic.com",
+    "director": "Alyce Pacheco",
+    "phone": "(987) 419-2488",
+    "countryCode": "OM"
+  },
+  {
+    "id": 40,
+    "companyName": "Comtours",
+    "email": "alycepacheco@comtours.com",
+    "director": "Bonnie King",
+    "phone": "(946) 570-3233",
+    "countryCode": "CH"
+  },
+  {
+    "id": 41,
+    "companyName": "Moltonic",
+    "email": "bonnieking@moltonic.com",
+    "director": "Lewis Shaffer",
+    "phone": "(951) 600-3409",
+    "countryCode": "PK"
+  },
+  {
+    "id": 42,
+    "companyName": "Inquala",
+    "email": "lewisshaffer@inquala.com",
+    "director": "Hannah Dyer",
+    "phone": "(841) 542-3867",
+    "countryCode": "ET"
+  },
+  {
+    "id": 43,
+    "companyName": "Zilidium",
+    "email": "hannahdyer@zilidium.com",
+    "director": "Trudy Long",
+    "phone": "(843) 408-3968",
+    "countryCode": "CX"
+  },
+  {
+    "id": 44,
+    "companyName": "Centregy",
+    "email": "trudylong@centregy.com",
+    "director": "Tate Watson",
+    "phone": "(928) 420-2047",
+    "countryCode": "IN"
+  },
+  {
+    "id": 45,
+    "companyName": "Micronaut",
+    "email": "tatewatson@micronaut.com",
+    "director": "Montgomery Elliott",
+    "phone": "(817) 400-2952",
+    "countryCode": "GA"
+  },
+  {
+    "id": 46,
+    "companyName": "Conjurica",
+    "email": "montgomeryelliott@conjurica.com",
+    "director": "Knapp Reeves",
+    "phone": "(895) 490-2002",
+    "countryCode": "GI"
+  },
+  {
+    "id": 47,
+    "companyName": "Centree",
+    "email": "knappreeves@centree.com",
+    "director": "Bonner Kramer",
+    "phone": "(860) 576-3181",
+    "countryCode": "TT"
+  },
+  {
+    "id": 48,
+    "companyName": "Geekus",
+    "email": "bonnerkramer@geekus.com",
+    "director": "Nita Dunlap",
+    "phone": "(909) 474-2344",
+    "countryCode": "KG"
+  },
+  {
+    "id": 49,
+    "companyName": "Intrawear",
+    "email": "nitadunlap@intrawear.com",
+    "director": "Noemi Branch",
+    "phone": "(899) 489-2815",
+    "countryCode": "MT"
+  },
+  {
+    "id": 50,
+    "companyName": "Cipromox",
+    "email": "noemibranch@cipromox.com",
+    "director": "Alissa Stevens",
+    "phone": "(852) 528-3058",
+    "countryCode": "RW"
+  }
+]

@@ -1,18 +1,54 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    
+    <table>
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Gender</th>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" v-model="params.id">
+        </td>
+        <td>
+          <input type="text" v-model="params.firstName">
+        </td>
+        <td>
+          <input type="text" v-model="params.lastName">
+        </td>
+        <td>
+          <select v-model="params.gender">
+            <option value="all">All</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr v-for="user in items">
+        <td><strong>{{ user.id }}</strong></td>
+        <td>{{ user.firstName }}</td>
+        <td>{{ user.lastName }}</td>
+        <td>{{ user.gender }}</td>
+      </tr>
+      <tr>
+        <td colspan="4" style="text-align: center">
+          <pagination :params="params" :total-pages="totalPages" @reload="get"/>
+        </td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+<script lang="ts" setup>
+import {apiUser} from "@/composable/api-user";
+import Pagination from "@/components/Pagination.vue";
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class Home extends Vue {}
+const {items, totalPages, get, loading, params} = apiUser();
+
 </script>

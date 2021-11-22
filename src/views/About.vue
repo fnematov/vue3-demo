@@ -1,5 +1,54 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <table>
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>Company name</th>
+        <th>Email</th>
+        <th>Director</th>
+        <th>Phone</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" v-model="params.id">
+        </td>
+        <td>
+          <input type="text" v-model="params.companyName">
+        </td>
+        <td>
+          <input type="text" v-model="params.email">
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <input type="text" v-model="params.countryCode">
+        </td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr v-for="company in items">
+        <td><strong>{{ company.id }}</strong></td>
+        <td>{{ company.companyName }}</td>
+        <td>{{ company.email }}</td>
+        <td>{{ company.director }}</td>
+        <td>{{ company.phone }}</td>
+        <td>{{ company.countryCode }}</td>
+      </tr>
+      <tr>
+        <td colspan="6" style="text-align: center">
+          <pagination :params="params" :total-pages="totalPages" @reload="get"/>
+        </td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 </template>
+
+<script lang="ts" setup>
+import Pagination from "@/components/Pagination.vue";
+import {apiCompany} from "@/composable/api-company";
+
+const {items, totalPages, get, loading, params} = apiCompany();
+</script>
