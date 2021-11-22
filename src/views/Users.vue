@@ -51,12 +51,12 @@ import {api} from "@/composable/api";
 import {User} from "@/types/User";
 import {UserRequestParams} from "@/types/UserRequestParams";
 
-const userParams: UserRequestParams = {
+const userParams = {
   id: null,
   firstName: null,
   lastName: null,
   gender: null
-};
+} as UserRequestParams;
 
 const {items, totalPages, get, loading, params} = api<User, UserRequestParams>('users.json', userParams);
 

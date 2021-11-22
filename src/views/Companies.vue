@@ -52,12 +52,12 @@ import {api} from "@/composable/api";
 import {Company} from "@/types/Company";
 import {CompanyRequestParams} from "@/types/CompanyRequestParams";
 
-const companyParams: CompanyRequestParams = {
+const companyParams = {
   id: null,
   companyName: null,
   email: null,
   countryCode: null
-};
+} as CompanyRequestParams;
 
 const {items, totalPages, get, loading, params} = api<Company, CompanyRequestParams>('companies.json', companyParams);
 </script>
