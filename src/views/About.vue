@@ -48,7 +48,8 @@
 
 <script lang="ts" setup>
 import Pagination from "@/components/Pagination.vue";
-import {apiCompany} from "@/composable/api-company";
+import {api} from "@/composable/api";
+import {Company} from "@/types/Company";
 
-const {items, totalPages, get, loading, params} = apiCompany();
+const {items, totalPages, get, loading, params} = api<Company>('companies.json');
 </script>

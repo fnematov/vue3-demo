@@ -11,22 +11,15 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 
 import {PropType} from "vue";
 import {RequestParams} from "@/types/RequestParams";
 
-export default {
-  name: "Pagination",
-  props: {
-    params: {
-      type: Object as PropType<RequestParams>
-    },
-    totalPages: {
-      type: Number
-    }
-  },
-}
+defineProps({
+  params: Object as PropType<RequestParams>,
+  totalPages: Number
+})
 </script>
 
 <style scoped>

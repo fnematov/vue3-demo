@@ -46,9 +46,10 @@
 </template>
 
 <script lang="ts" setup>
-import {apiUser} from "@/composable/api-user";
 import Pagination from "@/components/Pagination.vue";
+import {api} from "@/composable/api";
+import {User} from "@/types/User";
 
-const {items, totalPages, get, loading, params} = apiUser();
+const {items, totalPages, get, loading, params} = api<User>('users.json');
 
 </script>
