@@ -1,13 +1,14 @@
 import {PageableResponse} from "@/types/PageableResponse";
 import {onMounted, reactive, ref, toRefs} from "vue";
-import {RequestParams} from "@/types/RequestParams";
+import {PageRequestParams} from "@/types/PageRequestParams";
 import {loadData} from "@/repositories/data";
 
-export function api<T>(url: string, initialLoading: boolean = false) {
+export function api<T, U extends PageRequestParams>(url: string, paramsData: U, initialLoading: boolean = false) {
     let loading = ref(initialLoading);
-    let params: RequestParams = reactive({
+    let params = reactive<U>({
+        ...paramsData,
         page: 1,
-        perPage: 15
+        perPage: 15,
     })
     const state: PageableResponse<T> = reactive({
         items: [],

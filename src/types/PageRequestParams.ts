@@ -1,4 +1,4 @@
-export interface RequestParams {
+export interface PageRequestParams {
     page: number;
     perPage: number;
 }

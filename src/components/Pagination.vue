@@ -14,10 +14,10 @@
 <script lang="ts" setup>
 
 import {PropType} from "vue";
-import {RequestParams} from "@/types/RequestParams";
+import {PageRequestParams} from "@/types/PageRequestParams";
 
 defineProps({
-  params: Object as PropType<RequestParams>,
+  params: Object as PropType<PageRequestParams>,
   totalPages: Number
 })
 </script>

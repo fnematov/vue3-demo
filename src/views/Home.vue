@@ -49,7 +49,15 @@
 import Pagination from "@/components/Pagination.vue";
 import {api} from "@/composable/api";
 import {User} from "@/types/User";
+import {UserRequestParams} from "@/types/UserRequestParams";
 
-const {items, totalPages, get, loading, params} = api<User>('users.json');
+const userParams: UserRequestParams = {
+  id: null,
+  firstName: null,
+  lastName: null,
+  gender: null
+};
+
+const {items, totalPages, get, loading, params} = api<User, UserRequestParams>('users.json', userParams);
 
 </script>

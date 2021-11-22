@@ -1,6 +1,6 @@
-import {RequestParams} from "@/types/RequestParams";
+import {PageRequestParams} from "@/types/PageRequestParams";
 
-export interface CompanyRequestParams extends RequestParams {
+export interface CompanyRequestParams extends PageRequestParams {
     id?: number | null;
     companyName?: string | null;
     email?: string | null;

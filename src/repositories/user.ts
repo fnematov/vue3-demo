@@ -1,9 +1,9 @@
 import {User} from "@/types/User";
 import {getData} from "@/services/request";
-import {RequestParams} from "@/types/RequestParams";
+import {PageRequestParams} from "@/types/PageRequestParams";
 import {PageableResponse} from "@/types/PageableResponse";
 
-export async function loadUsers(params: RequestParams): Promise<PageableResponse<User>> {
+export async function loadUsers(params: PageRequestParams): Promise<PageableResponse<User>> {
     const users = await getData<User[]>('users.json');
     if (!params.page) params.page = 1;
     if (!params.perPage) params.perPage = 15;
